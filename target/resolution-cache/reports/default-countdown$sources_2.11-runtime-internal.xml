@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="countdown$sources_2.11"
+		revision="0.1-SNAPSHOT"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20200116215844"/>
+	<dependencies>
+		<module organisation="com.google.transit" name="gtfs-realtime-bindings">
+			<revision name="0.0.2" status="release" pubdate="20150128093656" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/google/gtfs-realtime-bindings" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3253" time="0" location="/Users/dtsoy/.ivy2/cache/com.google.transit/gtfs-realtime-bindings/ivy-0.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/transit/gtfs-realtime-bindings/0.0.2/gtfs-realtime-bindings-0.0.2.pom"/>
+				<caller organisation="default" name="countdown$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.0.2" rev-constraint-default="0.0.2" rev-constraint-dynamic="0.0.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="gtfs-realtime-bindings" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="74108" time="301" location="/Users/dtsoy/.ivy2/cache/com.google.transit/gtfs-realtime-bindings/srcs/gtfs-realtime-bindings-0.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/transit/gtfs-realtime-bindings/0.0.2/gtfs-realtime-bindings-0.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="gtfs-realtime-bindings" type="jar" ext="jar" status="no" details="" size="206750" time="0" location="/Users/dtsoy/.ivy2/cache/com.google.transit/gtfs-realtime-bindings/jars/gtfs-realtime-bindings-0.0.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/transit/gtfs-realtime-bindings/0.0.2/gtfs-realtime-bindings-0.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.6.1" status="release" pubdate="20141022211025" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://developers.google.com/protocol-buffers/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3153" time="0" location="/Users/dtsoy/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom"/>
+				<caller organisation="default" name="countdown$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.6.1" rev-constraint-default="2.6.1" rev-constraint-dynamic="2.6.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="308705" time="133" location="/Users/dtsoy/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1-sources.jar"/>
+					</artifact>
+					<artifact name="protobuf-java" type="jar" ext="jar" status="successful" details="" size="596642" time="140" location="/Users/dtsoy/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.softwaremill.sttp.client" name="core_2.11">
+			<revision name="2.0.0-RC6" status="release" pubdate="20200107083022" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://softwaremill.com/open-source" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3479" time="0" location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.client/core_2.11/ivy-2.0.0-RC6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/softwaremill/sttp/client/core_2.11/2.0.0-RC6/core_2.11-2.0.0-RC6.pom"/>
+				<caller organisation="default" name="countdown$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.0.0-RC6" rev-constraint-default="2.0.0-RC6" rev-constraint-dynamic="2.0.0-RC6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="core_2.11" type="jar" ext="jar" status="no" details="" size="470985" time="0" location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.client/core_2.11/jars/core_2.11-2.0.0-RC6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/softwaremill/sttp/client/core_2.11/2.0.0-RC6/core_2.11-2.0.0-RC6.jar"/>
+					</artifact>
+					<artifact name="core_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="35385" time="120" location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.client/core_2.11/srcs/core_2.11-2.0.0-RC6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/softwaremill/sttp/client/core_2.11/2.0.0-RC6/core_2.11-2.0.0-RC6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.softwaremill.sttp.model" name="core_2.11">
+			<revision name="1.0.0-RC1" status="release" pubdate="20191204071131" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://softwaremill.com/open-source" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2810" time="0" location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.model/core_2.11/ivy-1.0.0-RC1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.11/1.0.0-RC1/core_2.11-1.0.0-RC1.pom"/>
+				<caller organisation="default" name="countdown$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.0.0-RC1" rev-constraint-default="1.0.0-RC1" rev-constraint-dynamic="1.0.0-RC1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="core_2.11" type="jar" ext="jar" status="no" details="" size="377644" time="0" location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.model/core_2.11/jars/core_2.11-1.0.0-RC1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.11/1.0.0-RC1/core_2.11-1.0.0-RC1.jar"/>
+					</artifact>
+					<artifact name="core_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="25666" time="122" location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.model/core_2.11/srcs/core_2.11-1.0.0-RC1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.11/1.0.0-RC1/core_2.11-1.0.0-RC1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.12" status="release" pubdate="20171102213730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.12/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2656" time="0" location="/Users/dtsoy/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.12.xml" searched="false" origin-is-local="false" origin-location="https://dv01.jfrog.io/dv01/mvn-releases/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.pom"/>
+				<caller organisation="default" name="countdown$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.11.12/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5749423" time="0" location="/Users/dtsoy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.12.jar">
+						<origin-location is-local="false" location="https://dv01.jfrog.io/dv01/mvn-releases/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="912259" time="0" location="/Users/dtsoy/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.12-sources.jar">
+						<origin-location is-local="false" location="https://dv01.jfrog.io/dv01/mvn-releases/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,490 @@
+[warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
+[warn]  * org.scala-lang:scala-library:(2.11.12, 2.11.8)
+[debug] :: resolving dependencies :: default#countdown$sources_2.11;0.1-SNAPSHOT
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->default(compile)]
+[info] Resolving com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68a707ba
+[debug] sbt-chain: module revision found in cache: com.softwaremill.sttp.client#core_2.11;2.0.0-RC6
+[debug] 	found com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 in sbt-chain
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.12 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c4556a6
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.12
+[debug] 	found org.scala-lang#scala-library;2.11.12 in sbt-chain
+[debug] 	[2.11.12] org.scala-lang#scala-library;2.11.12
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->default(compile)]
+[info] Resolving com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a073333
+[debug] sbt-chain: module revision found in cache: com.softwaremill.sttp.model#core_2.11;1.0.0-RC1
+[debug] 	found com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 in sbt-chain
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->default(compile)]
+[info] Resolving com.google.transit#gtfs-realtime-bindings;0.0.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@586b5300
+[debug] sbt-chain: module revision found in cache: com.google.transit#gtfs-realtime-bindings;0.0.2
+[debug] 	found com.google.transit#gtfs-realtime-bindings;0.0.2 in sbt-chain
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->default(compile)]
+[info] Resolving com.google.protobuf#protobuf-java;2.6.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a72a8e4
+[debug] sbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.6.1
+[debug] 	found com.google.protobuf#protobuf-java;2.6.1 in sbt-chain
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [test->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [test->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [test->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [test->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [test->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [test->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [test->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [test->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [test->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [test->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [test->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [test->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [test->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [test->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [test->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [test->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [test->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [test->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [test->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->master]
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile-internal->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile-internal->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile-internal->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile-internal->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile-internal->master]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->master]
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime-internal->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime-internal->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime-internal->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime-internal->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime-internal->master]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [compile->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [runtime->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [test->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [test->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [test->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [test->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [test->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [test->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [test->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [test->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [test->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [test->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [test->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [test->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [test->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [test->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [test->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [test->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [test->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [test->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [test->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [test->master]
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [test-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [test-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.client#core_2.11;2.0.0-RC6 [test-internal->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [test-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [test-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [test-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.12 [test-internal->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [test-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [test-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [test-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.softwaremill.sttp.model#core_2.11;1.0.0-RC1 [test-internal->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [test-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [test-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [test-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.transit#gtfs-realtime-bindings;0.0.2 [test-internal->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [test-internal->default(compile)]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [test-internal->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [test-internal->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.6.1 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#countdown$sources_2.11;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8
+[debug] 	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
+[debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
+[debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->default(compile)]
+[info] Resolving jline#jline;2.12.1 ...
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
+[debug] 	found jline#jline;2.12.1 in sbt-chain
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->runtime]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->compile]
+[debug] == resolving dependencies default#countdown$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] com.softwaremill.sttp.client#core_2.11;2.0.0-RC6!core_2.11.jar
+[debug] 		tried /Users/dtsoy/.ivy2/local/com.softwaremill.sttp.client/core_2.11/2.0.0-RC6/srcs/core_2.11-sources.jar
+[debug] 		tried /Users/dtsoy/.sbt/preloaded/com.softwaremill.sttp.client/core_2.11/2.0.0-RC6/srcs/core_2.11-sources.jar
+[debug] 		tried file:////Users/dtsoy/.sbt/preloaded/com/softwaremill/sttp/client/core_2.11/2.0.0-RC6/core_2.11-2.0.0-RC6-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/softwaremill/sttp/client/core_2.11/2.0.0-RC6/core_2.11-2.0.0-RC6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/softwaremill/sttp/client/core_2.11/2.0.0-RC6/core_2.11-2.0.0-RC6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/softwaremill/sttp/client/core_2.11/2.0.0-RC6/core_2.11-2.0.0-RC6-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/softwaremill/sttp/client/core_2.11/2.0.0-RC6/core_2.11-2.0.0-RC6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/softwaremill/sttp/client/core_2.11/2.0.0-RC6/core_2.11-2.0.0-RC6-sources.jar
+[info] 	[SUCCESSFUL ] com.softwaremill.sttp.client#core_2.11;2.0.0-RC6!core_2.11.jar(src) (120ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.12!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.12!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] com.softwaremill.sttp.model#core_2.11;1.0.0-RC1!core_2.11.jar
+[debug] 		tried /Users/dtsoy/.ivy2/local/com.softwaremill.sttp.model/core_2.11/1.0.0-RC1/srcs/core_2.11-sources.jar
+[debug] 		tried /Users/dtsoy/.sbt/preloaded/com.softwaremill.sttp.model/core_2.11/1.0.0-RC1/srcs/core_2.11-sources.jar
+[debug] 		tried file:////Users/dtsoy/.sbt/preloaded/com/softwaremill/sttp/model/core_2.11/1.0.0-RC1/core_2.11-1.0.0-RC1-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.11/1.0.0-RC1/core_2.11-1.0.0-RC1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.11/1.0.0-RC1/core_2.11-1.0.0-RC1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.11/1.0.0-RC1/core_2.11-1.0.0-RC1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.11/1.0.0-RC1/core_2.11-1.0.0-RC1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.11/1.0.0-RC1/core_2.11-1.0.0-RC1-sources.jar
+[info] 	[SUCCESSFUL ] com.softwaremill.sttp.model#core_2.11;1.0.0-RC1!core_2.11.jar(src) (122ms)
+[debug] 		tried /Users/dtsoy/.ivy2/local/com.google.transit/gtfs-realtime-bindings/0.0.2/srcs/gtfs-realtime-bindings-sources.jar
+[debug] 	[NOT REQUIRED] com.google.transit#gtfs-realtime-bindings;0.0.2!gtfs-realtime-bindings.jar
+[debug] 		tried /Users/dtsoy/.sbt/preloaded/com.google.transit/gtfs-realtime-bindings/0.0.2/srcs/gtfs-realtime-bindings-sources.jar
+[debug] 		tried file:////Users/dtsoy/.sbt/preloaded/com/google/transit/gtfs-realtime-bindings/0.0.2/gtfs-realtime-bindings-0.0.2-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/transit/gtfs-realtime-bindings/0.0.2/gtfs-realtime-bindings-0.0.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/google/transit/gtfs-realtime-bindings/0.0.2/gtfs-realtime-bindings-0.0.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/transit/gtfs-realtime-bindings/0.0.2/gtfs-realtime-bindings-0.0.2-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/transit/gtfs-realtime-bindings/0.0.2/gtfs-realtime-bindings-0.0.2-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/transit/gtfs-realtime-bindings/0.0.2/gtfs-realtime-bindings-0.0.2-sources.jar
+[info] 	[SUCCESSFUL ] com.google.transit#gtfs-realtime-bindings;0.0.2!gtfs-realtime-bindings.jar(src) (301ms)
+[debug] 		tried /Users/dtsoy/.ivy2/local/com.google.protobuf/protobuf-java/2.6.1/srcs/protobuf-java-sources.jar
+[debug] 		tried /Users/dtsoy/.ivy2/local/com.google.protobuf/protobuf-java/2.6.1/jars/protobuf-java.jar
+[debug] 		tried /Users/dtsoy/.sbt/preloaded/com.google.protobuf/protobuf-java/2.6.1/srcs/protobuf-java-sources.jar
+[debug] 		tried /Users/dtsoy/.sbt/preloaded/com.google.protobuf/protobuf-java/2.6.1/jars/protobuf-java.jar
+[debug] 		tried file:////Users/dtsoy/.sbt/preloaded/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1-sources.jar
+[debug] 		tried file:////Users/dtsoy/.sbt/preloaded/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1-sources.jar
+[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.6.1!protobuf-java.jar(src) (133ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar
+[info] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar
+[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.6.1!protobuf-java.jar (140ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
+[debug] :: resolution report :: resolve 69ms :: artifacts dl 837ms
+[debug] 	report for default#countdown$sources_2.11;0.1-SNAPSHOT compile produced in /Users/dtsoy/Documents/github/Countdown/target/resolution-cache/reports/default-countdown$sources_2.11-compile.xml
+[debug] 	report for default#countdown$sources_2.11;0.1-SNAPSHOT runtime produced in /Users/dtsoy/Documents/github/Countdown/target/resolution-cache/reports/default-countdown$sources_2.11-runtime.xml
+[debug] 	report for default#countdown$sources_2.11;0.1-SNAPSHOT test produced in /Users/dtsoy/Documents/github/Countdown/target/resolution-cache/reports/default-countdown$sources_2.11-test.xml
+[debug] 	report for default#countdown$sources_2.11;0.1-SNAPSHOT provided produced in /Users/dtsoy/Documents/github/Countdown/target/resolution-cache/reports/default-countdown$sources_2.11-provided.xml
+[debug] 	report for default#countdown$sources_2.11;0.1-SNAPSHOT optional produced in /Users/dtsoy/Documents/github/Countdown/target/resolution-cache/reports/default-countdown$sources_2.11-optional.xml
+[debug] 	report for default#countdown$sources_2.11;0.1-SNAPSHOT compile-internal produced in /Users/dtsoy/Documents/github/Countdown/target/resolution-cache/reports/default-countdown$sources_2.11-compile-internal.xml
+[debug] 	report for default#countdown$sources_2.11;0.1-SNAPSHOT runtime-internal produced in /Users/dtsoy/Documents/github/Countdown/target/resolution-cache/reports/default-countdown$sources_2.11-runtime-internal.xml
+[debug] 	report for default#countdown$sources_2.11;0.1-SNAPSHOT test-internal produced in /Users/dtsoy/Documents/github/Countdown/target/resolution-cache/reports/default-countdown$sources_2.11-test-internal.xml
+[debug] 	report for default#countdown$sources_2.11;0.1-SNAPSHOT plugin produced in /Users/dtsoy/Documents/github/Countdown/target/resolution-cache/reports/default-countdown$sources_2.11-plugin.xml
+[debug] 	report for default#countdown$sources_2.11;0.1-SNAPSHOT sources produced in /Users/dtsoy/Documents/github/Countdown/target/resolution-cache/reports/default-countdown$sources_2.11-sources.xml
+[debug] 	report for default#countdown$sources_2.11;0.1-SNAPSHOT docs produced in /Users/dtsoy/Documents/github/Countdown/target/resolution-cache/reports/default-countdown$sources_2.11-docs.xml
+[debug] 	report for default#countdown$sources_2.11;0.1-SNAPSHOT pom produced in /Users/dtsoy/Documents/github/Countdown/target/resolution-cache/reports/default-countdown$sources_2.11-pom.xml
+[debug] 	report for default#countdown$sources_2.11;0.1-SNAPSHOT scala-tool produced in /Users/dtsoy/Documents/github/Countdown/target/resolution-cache/reports/default-countdown$sources_2.11-scala-tool.xml
+[debug] 	resolve done (69ms resolve - 837ms download)

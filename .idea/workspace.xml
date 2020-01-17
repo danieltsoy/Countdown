@@ -1,7 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65333e6a-846a-40b2-b74e-5ff21cd61897" name="Default" comment="" />
+    <list default="true" id="65333e6a-846a-40b2-b74e-5ff21cd61897" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/scalapb.sbt" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/countdown-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/countdown-build.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/countdown.iml" afterPath="$PROJECT_DIR$/.idea/modules/countdown.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change beforePath="$PROJECT_DIR$/project/build.properties" afterPath="$PROJECT_DIR$/project/build.properties" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$10bb2ca653e5f1b0cf7c$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$10bb2ca653e5f1b0cf7c.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$10bb2ca653e5f1b0cf7c.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$211c1eaafdaefb9a3352$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$211c1eaafdaefb9a3352$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$211c1eaafdaefb9a3352.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$211c1eaafdaefb9a3352.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4f38cb05b20632f48291$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4f38cb05b20632f48291$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4f38cb05b20632f48291.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4f38cb05b20632f48291.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$550ce1847baf236b7e18$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$550ce1847baf236b7e18$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$550ce1847baf236b7e18$$anonfun$$sbtdef$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$550ce1847baf236b7e18$$anonfun$$sbtdef$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$550ce1847baf236b7e18$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$550ce1847baf236b7e18.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$550ce1847baf236b7e18.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9af22dbefe928ba4bd47$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9af22dbefe928ba4bd47$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9af22dbefe928ba4bd47.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9af22dbefe928ba4bd47.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e95226513102e6ddc98e$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e95226513102e6ddc98e$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e95226513102e6ddc98e.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e95226513102e6ddc98e.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/countdown-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/countdown-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/countdown-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/countdown-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-docs.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-sources.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-countdown-build-test.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/scalapb.sbt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Run.scala" afterPath="$PROJECT_DIR$/src/main/scala/Run.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/nyct-subway.proto.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/countdown_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/countdown_2.11/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/countdown_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/countdown_2.11/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-docs.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-sources.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-countdown_2.11-test.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Run$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Run$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Run$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Run$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Run.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Run.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/inputs" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/streams/out" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/csrConfiguration/_global/streams/out" afterPath="$PROJECT_DIR$/target/streams/_global/csrConfiguration/_global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/ivyConfiguration/_global/streams/out" afterPath="$PROJECT_DIR$/target/streams/_global/ivyConfiguration/_global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" afterPath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/inputs" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -13,6 +134,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="REBUILD_ON_DEPENDENCY_CHANGE" value="false" />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -23,8 +147,38 @@
       <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="135">
+              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scalapb.sbt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/scalapb.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="78" lean-forward="false" selection-start-line="2" selection-start-column="78" selection-end-line="2" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NycSubwayProto.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/scala-2.12/src_managed/main/com/google/transit/realtime/nyc_subway/NycSubwayProto.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildExtra.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/main-0.13.8.jar!/sbt/BuildExtra.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -34,27 +188,7 @@
         <entry file="file://$PROJECT_DIR$/project/build.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nyct-subway.proto.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/nyct-subway.proto.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scalapb.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scalapb.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -63,14 +197,66 @@
       <file leaf-file-name="Run.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Run.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NyctStopTimeUpdate.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/scala-2.12/src_managed/main/com/google/transit/realtime/nyc_subway/NyctStopTimeUpdate.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="120" column="7" lean-forward="false" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GtfsRealtime.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.google.transit/gtfs-realtime-bindings/srcs/gtfs-realtime-bindings-0.0.2-sources.jar!/com/google/transit/realtime/GtfsRealtime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53595">
+              <caret line="3733" column="111" lean-forward="false" selection-start-line="3733" selection-start-column="111" selection-end-line="3733" selection-end-column="111" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SttpApi.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.softwaremill.sttp.client/core_2.11/srcs/core_2.11-2.0.0-RC6-sources.jar!/sttp/client/SttpApi.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2190">
+              <caret line="154" column="110" lean-forward="false" selection-start-line="154" selection-start-column="104" selection-end-line="154" selection-end-column="110" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URL.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/net/URL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6165">
+              <caret line="442" column="35" lean-forward="false" selection-start-line="442" selection-start-column="35" selection-end-line="442" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>header</find>
+      <find>stream</find>
+      <find>parsefrom</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -81,19 +267,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/Main.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Run.scala" />
-        <option value="$PROJECT_DIR$/scalapb.sbt" />
-        <option value="$PROJECT_DIR$/project/build.properties" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/nyct-subway.proto.txt" />
+        <option value="$PROJECT_DIR$/src/main/protobuf/Direction.java" />
+        <option value="$PROJECT_DIR$/project/build.properties" />
+        <option value="$PROJECT_DIR$/scalapb.sbt" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/Run.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="837" />
+    <option name="x" value="54" />
+    <option name="y" value="27" />
+    <option name="width" value="1364" />
+    <option name="height" value="799" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -110,38 +297,133 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
               <item name="Countdown" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
               <item name="Countdown" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
               <item name="Countdown" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
               <item name="Countdown" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
               <item name="Countdown" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf_external" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf_external" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="resolution-cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-2.12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-2.12" type="462c0819:PsiDirectoryNode" />
+              <item name="src_managed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-2.12" type="462c0819:PsiDirectoryNode" />
+              <item name="src_managed" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-2.12" type="462c0819:PsiDirectoryNode" />
+              <item name="src_managed" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="realtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-2.12" type="462c0819:PsiDirectoryNode" />
+              <item name="src_managed" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="gtfs_realtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-2.12" type="462c0819:PsiDirectoryNode" />
+              <item name="src_managed" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="realtime" type="462c0819:PsiDirectoryNode" />
+              <item name="nyc_subway" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -151,8 +433,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="sbt.project.settings.configurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -288,13 +576,13 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1579140178761" />
+    <option name="lastUpdateTimestamp" value="1579233544265" />
     <option name="availableProjects">
       <map>
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="Countdown" />
+              <option name="name" value="countdown" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -318,7 +606,6 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/../data-platform" value="PREVIEW" />
       </map>
     </option>
@@ -340,7 +627,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="23" width="1440" height="837" extended-state="0" />
+    <frame x="54" y="27" width="1364" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -348,21 +635,21 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34662998" sideWeight="0.50293255" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41953233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26319647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34662998" sideWeight="0.49706745" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -391,14 +678,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scalapb.sbt">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.6.1-sources.jar!/com/google/protobuf/UnknownFieldSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="2">
+          <caret line="64" column="3" lean-forward="true" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/protobuf/Direction.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/nyct-subway.proto.txt" />
+    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/main-0.13.8.jar!/sbt/BuildExtra.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -406,31 +704,81 @@
     <entry file="file://$PROJECT_DIR$/project/build.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.google.transit/gtfs-realtime-bindings/srcs/gtfs-realtime-bindings-0.0.2-sources.jar!/com/google/transit/realtime/GtfsRealtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53595">
+          <caret line="3733" column="111" lean-forward="false" selection-start-line="3733" selection-start-column="111" selection-end-line="3733" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.softwaremill.sttp.client/core_2.11/srcs/core_2.11-2.0.0-RC6-sources.jar!/sttp/client/SttpApi.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2190">
+          <caret line="154" column="110" lean-forward="false" selection-start-line="154" selection-start-column="104" selection-end-line="154" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6165">
+          <caret line="442" column="35" lean-forward="false" selection-start-line="442" selection-start-column="35" selection-end-line="442" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/scalapb.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="78" lean-forward="false" selection-start-line="2" selection-start-column="78" selection-end-line="2" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/scala-2.12/src_managed/main/com/google/transit/realtime/nyc_subway/NycSubwayProto.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/transit/gtfs-realtime-bindings/0.0.2/gtfs-realtime-bindings-0.0.2-sources.jar!/com/google/transit/realtime/GtfsRealtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="213" column="58" lean-forward="false" selection-start-line="213" selection-start-column="58" selection-end-line="213" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Run.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="285">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/nyct-subway.proto.txt">
+    <entry file="file://$PROJECT_DIR$/target/scala-2.12/src_managed/main/com/google/transit/realtime/nyc_subway/NyctStopTimeUpdate.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+        <state relative-caret-position="132">
+          <caret line="120" column="7" lean-forward="false" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -513,7 +861,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>sbt: org.scala-lang:scala-library:2.12.4:jar</last-edited>
+          <last-edited>sbt: com.google.protobuf:protobuf-java:3.7.1:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

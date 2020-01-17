@@ -7,64 +7,83 @@
 		revision="0.1-SNAPSHOT"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20200115213017"/>
+		date="20200116223858"/>
 	<dependencies>
-		<module organisation="com.thesamet.scalapb" name="compilerplugin_2.11">
-			<revision name="0.9.4" status="release" pubdate="20191012233556" resolver="public" artresolver="public" homepage="https://github.com/scalapb/ScalaPB" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="3">
-				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2275" time="95" location="/Users/dtsoy/.ivy2/cache/com.thesamet.scalapb/compilerplugin_2.11/ivy-0.9.4.xml" searched="true" original-local-location="/Users/dtsoy/.ivy2/cache/com.thesamet.scalapb/compilerplugin_2.11/ivy-0.9.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thesamet/scalapb/compilerplugin_2.11/0.9.4/compilerplugin_2.11-0.9.4.pom"/>
-				<caller organisation="default" name="countdown_2.11" conf="compile" rev="0.9.4" rev-constraint-default="0.9.4" rev-constraint-dynamic="0.9.4" callerrev="0.1-SNAPSHOT"/>
+		<module organisation="com.google.transit" name="gtfs-realtime-bindings">
+			<revision name="0.0.2" status="release" pubdate="20150128093656" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/google/gtfs-realtime-bindings" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3253" time="0" location="/Users/dtsoy/.ivy2/cache/com.google.transit/gtfs-realtime-bindings/ivy-0.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/transit/gtfs-realtime-bindings/0.0.2/gtfs-realtime-bindings-0.0.2.pom"/>
+				<caller organisation="default" name="countdown_2.11" conf="compile" rev="0.0.2" rev-constraint-default="0.0.2" rev-constraint-dynamic="0.0.2" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="compilerplugin_2.11" type="jar" ext="jar" status="successful" details="" size="756029" time="159" location="/Users/dtsoy/.ivy2/cache/com.thesamet.scalapb/compilerplugin_2.11/jars/compilerplugin_2.11-0.9.4.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thesamet/scalapb/compilerplugin_2.11/0.9.4/compilerplugin_2.11-0.9.4.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.thesamet.scalapb" name="protoc-bridge_2.11">
-			<revision name="0.7.10" status="release" pubdate="20190915162752" resolver="public" artresolver="public" homepage="https://github.com/scalapb/protoc-bridge" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
-				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2324" time="49" location="/Users/dtsoy/.ivy2/cache/com.thesamet.scalapb/protoc-bridge_2.11/ivy-0.7.10.xml" searched="true" original-local-location="/Users/dtsoy/.ivy2/cache/com.thesamet.scalapb/protoc-bridge_2.11/ivy-0.7.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thesamet/scalapb/protoc-bridge_2.11/0.7.10/protoc-bridge_2.11-0.7.10.pom"/>
-				<caller organisation="com.thesamet.scalapb" name="compilerplugin_2.11" conf="default, compile, runtime, master" rev="0.7.10" rev-constraint-default="0.7.10" rev-constraint-dynamic="0.7.10" callerrev="0.9.4"/>
-				<artifacts>
-					<artifact name="protoc-bridge_2.11" type="jar" ext="jar" status="successful" details="" size="66969" time="48" location="/Users/dtsoy/.ivy2/cache/com.thesamet.scalapb/protoc-bridge_2.11/jars/protoc-bridge_2.11-0.7.10.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thesamet/scalapb/protoc-bridge_2.11/0.7.10/protoc-bridge_2.11-0.7.10.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.google.protobuf" name="protobuf-java">
-			<revision name="3.7.1" status="release" pubdate="20190402164355" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
-				<metadata-artifact status="successful" details="" size="5309" time="41" location="/Users/dtsoy/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-3.7.1.xml" searched="true" original-local-location="/Users/dtsoy/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-3.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1.pom"/>
-				<caller organisation="com.thesamet.scalapb" name="compilerplugin_2.11" conf="default, compile, runtime, master" rev="3.7.1" rev-constraint-default="3.7.1" rev-constraint-dynamic="3.7.1" callerrev="0.9.4"/>
-				<artifacts>
-					<artifact name="protobuf-java" type="bundle" ext="jar" status="successful" details="" size="1424223" time="185" location="/Users/dtsoy/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-3.7.1.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1.jar"/>
+					<artifact name="gtfs-realtime-bindings" type="jar" ext="jar" status="no" details="" size="206750" time="0" location="/Users/dtsoy/.ivy2/cache/com.google.transit/gtfs-realtime-bindings/jars/gtfs-realtime-bindings-0.0.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/transit/gtfs-realtime-bindings/0.0.2/gtfs-realtime-bindings-0.0.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.softwaremill.sttp.client" name="core_2.11">
-			<revision name="2.0.0-RC6" status="release" pubdate="20200107083022" resolver="public" artresolver="public" homepage="http://softwaremill.com/open-source" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+			<revision name="2.0.0-RC6" status="release" pubdate="20200107083022" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://softwaremill.com/open-source" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2989" time="94" location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.client/core_2.11/ivy-2.0.0-RC6.xml" searched="true" original-local-location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.client/core_2.11/ivy-2.0.0-RC6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/softwaremill/sttp/client/core_2.11/2.0.0-RC6/core_2.11-2.0.0-RC6.pom"/>
+				<metadata-artifact status="no" details="" size="3479" time="0" location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.client/core_2.11/ivy-2.0.0-RC6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/softwaremill/sttp/client/core_2.11/2.0.0-RC6/core_2.11-2.0.0-RC6.pom"/>
 				<caller organisation="default" name="countdown_2.11" conf="compile" rev="2.0.0-RC6" rev-constraint-default="2.0.0-RC6" rev-constraint-dynamic="2.0.0-RC6" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="core_2.11" type="jar" ext="jar" status="successful" details="" size="470985" time="199" location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.client/core_2.11/jars/core_2.11-2.0.0-RC6.jar">
+					<artifact name="core_2.11" type="jar" ext="jar" status="no" details="" size="470985" time="0" location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.client/core_2.11/jars/core_2.11-2.0.0-RC6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/softwaremill/sttp/client/core_2.11/2.0.0-RC6/core_2.11-2.0.0-RC6.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.softwaremill.sttp.model" name="core_2.11">
-			<revision name="1.0.0-RC1" status="release" pubdate="20191204071131" resolver="public" artresolver="public" homepage="http://softwaremill.com/open-source" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+			<revision name="1.0.0-RC1" status="release" pubdate="20191204071131" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://softwaremill.com/open-source" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="1944" time="51" location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.model/core_2.11/ivy-1.0.0-RC1.xml" searched="true" original-local-location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.model/core_2.11/ivy-1.0.0-RC1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.11/1.0.0-RC1/core_2.11-1.0.0-RC1.pom"/>
+				<metadata-artifact status="no" details="" size="2810" time="0" location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.model/core_2.11/ivy-1.0.0-RC1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.11/1.0.0-RC1/core_2.11-1.0.0-RC1.pom"/>
 				<caller organisation="com.softwaremill.sttp.client" name="core_2.11" conf="default, compile, runtime, master" rev="1.0.0-RC1" rev-constraint-default="1.0.0-RC1" rev-constraint-dynamic="1.0.0-RC1" callerrev="2.0.0-RC6"/>
 				<artifacts>
-					<artifact name="core_2.11" type="jar" ext="jar" status="successful" details="" size="377644" time="96" location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.model/core_2.11/jars/core_2.11-1.0.0-RC1.jar">
+					<artifact name="core_2.11" type="jar" ext="jar" status="no" details="" size="377644" time="0" location="/Users/dtsoy/.ivy2/cache/com.softwaremill.sttp.model/core_2.11/jars/core_2.11-1.0.0-RC1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.11/1.0.0-RC1/core_2.11-1.0.0-RC1.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thesamet.scalapb" name="compilerplugin_2.11">
+			<revision name="0.9.4" status="release" pubdate="20191012233556" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalapb/ScalaPB" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3102" time="0" location="/Users/dtsoy/.ivy2/cache/com.thesamet.scalapb/compilerplugin_2.11/ivy-0.9.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thesamet/scalapb/compilerplugin_2.11/0.9.4/compilerplugin_2.11-0.9.4.pom"/>
+				<caller organisation="default" name="countdown_2.11" conf="compile" rev="0.9.4" rev-constraint-default="0.9.4" rev-constraint-dynamic="0.9.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="compilerplugin_2.11" type="jar" ext="jar" status="no" details="" size="756029" time="0" location="/Users/dtsoy/.ivy2/cache/com.thesamet.scalapb/compilerplugin_2.11/jars/compilerplugin_2.11-0.9.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thesamet/scalapb/compilerplugin_2.11/0.9.4/compilerplugin_2.11-0.9.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thesamet.scalapb" name="protoc-bridge_2.11">
+			<revision name="0.7.10" status="release" pubdate="20190915162752" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalapb/protoc-bridge" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3051" time="0" location="/Users/dtsoy/.ivy2/cache/com.thesamet.scalapb/protoc-bridge_2.11/ivy-0.7.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thesamet/scalapb/protoc-bridge_2.11/0.7.10/protoc-bridge_2.11-0.7.10.pom"/>
+				<caller organisation="com.thesamet.scalapb" name="compilerplugin_2.11" conf="default, compile, runtime, master" rev="0.7.10" rev-constraint-default="0.7.10" rev-constraint-dynamic="0.7.10" callerrev="0.9.4"/>
+				<artifacts>
+					<artifact name="protoc-bridge_2.11" type="jar" ext="jar" status="no" details="" size="66969" time="0" location="/Users/dtsoy/.ivy2/cache/com.thesamet.scalapb/protoc-bridge_2.11/jars/protoc-bridge_2.11-0.7.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thesamet/scalapb/protoc-bridge_2.11/0.7.10/protoc-bridge_2.11-0.7.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="3.7.1" status="release" pubdate="20190402164355" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="5881" time="0" location="/Users/dtsoy/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-3.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1.pom"/>
+				<caller organisation="com.thesamet.scalapb" name="compilerplugin_2.11" conf="default, compile, runtime, master" rev="3.7.1" rev-constraint-default="3.7.1" rev-constraint-dynamic="3.7.1" callerrev="0.9.4"/>
+				<caller organisation="com.google.transit" name="gtfs-realtime-bindings" conf="default, compile, runtime, master" rev="2.6.1" rev-constraint-default="2.6.1" rev-constraint-dynamic="2.6.1" callerrev="0.0.2"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="no" details="" size="1424223" time="0" location="/Users/dtsoy/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-3.7.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.6.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="3.7.1"/>
+				<caller organisation="com.google.transit" name="gtfs-realtime-bindings" conf="default, compile, runtime, master" rev="2.6.1" rev-constraint-default="2.6.1" rev-constraint-dynamic="2.6.1" callerrev="0.0.2"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
@@ -93,8 +112,8 @@
 			</revision>
 		</module>
 		<module organisation="com.thesamet" name="sbt-protoc">
-			<revision name="0.99.27" error="not found" extra-scalaVersion="2.11" extra-sbtVersion="0.13" downloaded="false" searched="false" conf="default(compile)" position="-1">
-				<caller organisation="default" name="countdown_2.11" conf="compile" rev="0.99.27" rev-constraint-default="0.99.27" rev-constraint-dynamic="0.99.27" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.11" extra-sbtVersion="0.13"/>
+			<revision name="0.99.23" error="not found" extra-scalaVersion="2.11" extra-sbtVersion="0.13" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="default" name="countdown_2.11" conf="compile" rev="0.99.23" rev-constraint-default="0.99.23" rev-constraint-dynamic="0.99.23" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.11" extra-sbtVersion="0.13"/>
 				<artifacts>
 				</artifacts>
 			</revision>

@@ -1,0 +1,6 @@
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 protobuf files to /Users/dtsoy/Documents/github/Countdown/target/scala-2.12/src_managed/main[0m
+[0m[[0m[0mdebug[0m] [0m[0mprotoc options:[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /Users/dtsoy/Documents/github/Countdown/src/main/protobuf/gtfs-realtime.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /Users/dtsoy/Documents/github/Countdown/src/main/protobuf/nyc-subway.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling protobuf[0m
+[0m[[0m[0minfo[0m] [0m[0mProtoc target directory: /Users/dtsoy/Documents/github/Countdown/target/scala-2.12/src_managed/main[0m
